@@ -83,3 +83,16 @@ const sayHello = (name1) => {
 
 sayHello("김진아")
 
+console.log("==================================")
+
+//조건문
+const score = 59;
+if (score >= 60) {
+  // 조건삭이 true인 경우에 실행할 코드
+  console.log("합격");
+} else {
+  // 조건삭이 false인 경우에 실행할 코드
+  console.log("블합격")
+}
+console.log("if문 종료")
+
