@@ -156,3 +156,15 @@ const userInput = "text";
 
 const dayOfWeek = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"];
 console.log("🚀 ~ dayOfWeek:", dayOfWeek)
+
+
+console.log("오늘의 요일: ", dayOfWeek[1]);
+
+const idol = ["장원영", "안유진", "리즈", "레이", "가을", "이서"];
+console.log("🚀 ~ idol:", idol)
+
+// 미션: "안유진" 콘솔에 찍기
+console.log("altus1: ", idol[1])
+// 미션: 마지막 멤버 콤솔에 찍기
+console.log("미션2: ", idol[idol.length -1])
+
