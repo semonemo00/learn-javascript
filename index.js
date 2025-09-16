@@ -86,7 +86,7 @@ sayHello("김진아")
 console.log("==================================")
 
 //조건문
-const score = 59;
+const score = 79;
 if (score >= 60) {
   // 조건삭이 true인 경우에 실행할 코드
   console.log("합격");
@@ -96,3 +96,62 @@ if (score >= 60) {
 }
 console.log("if문 종료")
 
+let grade = ""
+
+if(score >= 90) {
+  grade = "A등급"
+} else if(score >= 80) {
+  grade = "B등급"
+} else if(score >= 70) {
+  grade = "C등급"
+} else {
+  grade = "D등급"
+}
+console.log(grade)
+
+
+console.log("======퀴즈=====")
+
+// 여기에 orderSandwich 함수를 작성하세요
+// orderSandwich 함수는 type 매개변수를 받고 타입에 따라 다른 재료를 반환해야 합니다
+/**
+const orderSandwich = (type) => {
+  if(type === 'basic') {
+    return '🥖 + 🥬 + 🍅 + 🧀 + 🥓';
+  } else {
+    return '🥖 + 🥬 + 🍅 + 🥑 + 🥒'
+  }
+  } 
+  
+}
+// 삼항 연산자
+//return type === "basic" ? 🥖 + 🥬 + 🍅 + 🧀 + 🥓 : 🥖 + 🥬 + 🍅 + 🥑 + 🥒
+
+console.log("기본 샌드위치 주문: " + orderSandwich());
+console.log("기본 샌드위치 주문: " + orderSandwich('basic'));
+console.log("비건 샌드위치 주문: " + orderSandwich('vegan'));
+
+기본 샌드위치 주문: 🥖 + 🥬 + 🍅 + 🧀 + 🥓
+기본 샌드위치 주문: 🥖 + 🥬 + 🍅 + 🧀 + 🥓
+비건 샌드위치 주문: 🥖 + 🥬 + 🍅 + 🥑 + 🥒
+*/
+
+// 미션: age의 값이 18세 이상이면 adultType "성인"
+// 미션: age의 값이 18세 미만이면 adultType "미성년자"
+const age = 20;
+const adultType = age >= 18 ? '성인' : '미성년자'
+console.log("🚀 ~ adultType:", adultType)
+console.log(adultType)
+
+if (0) {
+console.log("true입니다")
+} else {
+  console.log("false입니다")
+}
+
+const userInput = "text";
+//if (userInput) {
+//  alert("입력해 주셔서 감사합니다")
+//} else {
+//  alert("입력값을 작성해주세요")
+//}
